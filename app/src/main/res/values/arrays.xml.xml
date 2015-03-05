@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_title">
+        <item>本地应用列表</item>
+        <item>JNI Test</item>
+        <item>WebView测试</item>
+    </string-array>
+    <string-array name="demo_forward">
+        <item>AppManagerActivity</item>
+        <item>JniTest</item>
+        <item>WebViewActivity</item>
+     </string-array>
+</resources>

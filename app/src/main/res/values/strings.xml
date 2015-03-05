@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_debug">debug</string>
+    <string name="title_activity_d">Debug Activity</string>
+    <string name="activity_show_app_desc">查看本地的应用信息</string>
+    <string name="activity_show_app_title">本地应用列表</string>
+    <string name="activity_jni_test_title">JNI Test</string>
+    <string name="activity_jni_test_desc">JNI 功能测试</string>
+    <string name="acitivty_apk_del_title">安装包删除</string>
+    <string name="activity_apk_del_desc">删除本地安装包</string>
+    <string name="activity_webview">WebView测试</string>
+    <string name="activity_scroll_view">可移动ImageView</string>
+    <string name="input_url">输入网址</string>
+</resources>
