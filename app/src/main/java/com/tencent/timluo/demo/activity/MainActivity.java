@@ -9,6 +9,7 @@ import com.tencent.timluo.demo.R;
 import com.tencent.timluo.demo.adapter.ActivityAdapter;
 import com.tencent.timluo.demo.manager.ForwardManager;
 import com.tencent.timluo.demo.model.ActivityModule;
+import com.tencent.timluo.utils.ViewServer;
 
 import java.util.ArrayList;
 
@@ -25,6 +26,19 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         listView = (ListView) findViewById(R.id.list_main);
         initDate();
+        ViewServer.onCreate(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ViewServer.onResume(this);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ViewServer.OnDestroy(this);
     }
 
     private void initDate() {

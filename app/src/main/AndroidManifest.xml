@@ -1,12 +1,18 @@
 <!--suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="1"
+          android:versionName="1.0"
           package="com.tencent.timluo.demo">
+
+    <permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
 
     <application
         android:name="com.tencent.timluo.demo.SelfApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:debuggable="true"
         android:theme="@android:style/Theme.NoTitleBar">
         <activity
             android:name=".activity.MainActivity"
